@@ -1,0 +1,585 @@
+/*
+* @Author: zxdoer
+* @Date:   2016-08-22 20:27:09
+* @Last Modified by:   zxdoer
+* @Last Modified time: 2016-08-24 16:58:31
+*/
+
+.header {
+	height: 40px;
+	background-color:#333333;
+	line-height: 40px;
+}
+.l-header li{
+	float: left;
+	/* height: 40px; */
+
+	
+}
+.l-header li a{
+	padding: 0 7px;
+	border-right: 1px solid #423D39;
+	
+}
+.l-header li a:hover{
+	color: #fff;
+}
+.r-header {
+	
+}
+.r-header li{
+	float: right;
+
+}
+.r-header li a{
+	padding: 0 5px;
+
+}
+.r-header li a:hover{
+	color: #fff;
+}
+.r-header .cart{
+	/* background: url(../images/gouwu1.png) no-repeat left ; */
+	width: 120px;
+	height: 40px;
+	/* padding-left: 15px; */
+	background-color: #424242;
+	float: right;
+	text-align: center;
+}
+.cart a{
+	padding: 0 10px;
+}
+.cart a:hover{
+	color: #ff6700;
+}
+.cart a i{
+	line-height: 20px;
+	/* height: 20px; */
+	vertical-align: -2px; 
+	/* 为什么能用vertical移动呢 */
+	font-size: 20px;
+}
+/* ======================header end======================= */
+/* ======================nav start ========================= */
+.nav{
+	height: 100px;
+	/* background-color: red; */
+}
+.nav .logo{
+	width: 234px;
+	height: 100px;
+	line-height: 100px;
+	float: left;
+	/* background: url(../小米.png); */
+}
+.nav .logo a{
+	height: 55px;
+	width: 55px;
+	display: inline-block;
+	line-height: 55px;
+	background: url(../mi-logo.png) 3px ;
+	background-color: #ff6700;
+	text-indent: -2000px;
+
+}
+.nav .nav-list{
+	width: 696px;
+	height: 100px;
+	line-height: 100px;
+	float: left;
+}
+.nav-list li{
+	float: left;
+}
+.nav-list li a{
+	padding: 0 11px;
+	color: #333;
+	font-size: 16px;
+}
+.nav .search{
+	float: right;
+	width: 294px;
+	/* height: 48px; */
+	border: 1px solid #E0E0E0;
+	margin-top: 25px;
+	position: relative;
+}
+.search .txt{
+	float: left;
+	height: 50px;
+	width: 222px;
+	/* line-height: 50px; */
+	padding: 0 10px;
+}
+.search .btn{
+ 	width: 52px;
+ 	height: 50px;
+ 	float: right;
+ 	background-color: #fff;
+ 	font-size: 24px;
+	/* background: url(../search.png) no-repeat 13px 15px; */
+	border-left:  1px solid #e0e0e0;
+	cursor: pointer;
+ }
+ .search .btn:hover{
+ 	background-color: #ff6700;
+ 	color: white;
+ 	-webkit-transition: all .5s;
+ 	transition: all .5s;
+ }
+ .search .cube{
+ 	position: absolute;
+ 	top: 16px;
+ 	right: 62px;
+ 	/* margin-left: 5px; */
+
+ }
+ .search .cube a{
+  	background-color: #EEEEEE;
+  	padding: 0 3px;	
+  	margin-left: 5px;
+ }
+ .search .cube a:hover{
+ 	background-color: #ff6700;
+ 	color: white;
+ 	transition: all .5s;
+ }
+ /* ==============main start============== */
+ .main{
+ 	/* height: 500px; */
+ 	/* background-color: red; */
+ }
+ .main .l-side{
+ 	width: 234px;
+ 	height: 460px;
+ 	float: left;
+ 	background-color: #606060;
+ }
+ .l-side ul{
+ 	margin: 30px 0;
+ 	/* margin-left: 29px; */
+ }
+  .l-side li{
+  	height: 42px;
+  	line-height: 42px;
+  	position: relative;
+  }
+  .l-side li a{
+  	height: 42px;
+  	line-height: 42px;
+  	padding-left: 30px;
+  	display: block;
+  	color: white;
+  	/* position: relative; */
+  	/* font-size: 16px; */
+  }
+  .l-side a:hover{
+  	background-color: #ff6700;
+  }
+   .l-side i{
+   	float: right;
+   	position: absolute;
+   	top: 0px;
+   	right: 20px;
+   }
+
+   /* right img */
+   .main .r-img{
+   		width: 992px;
+   		height: 460px;
+   		float: left;
+   		/* background-color: red; */
+   }
+   .main .r-img img{
+   	width: 992px;
+   	height: 460px;
+   	/* float: left; */
+   }
+   /* ===========================hot bot=========================================== */
+   .hot-bot{
+   	/* height: 50px; */
+   	/* background-color: red; */
+   	margin-top: 14px;
+   }
+   .hot-bot .l-hot-bot{
+   	width: 234px;
+   	height: 170px;
+   	background-color: #5F5750;
+   	float: left;
+   }
+
+   .l-hot-bot li{
+   	width: 78px;
+   	height: 82px;
+   	background-color: #5F5750;
+   	float: left;
+   	position: relative;
+   }
+   .l-hot-bot li a{
+   		display: block;
+   		padding-top: 23px;
+   		text-align: center;
+   }
+.l-hot-bot li a:hover{
+	color: white;
+	transition: all .5s;
+	/* 上 添加动画时间 */
+}
+.l-hot-bot li i{
+    	display: block;
+    	font-size: 24px;
+    }
+    /* 用伪元素给盒子加边框线 但是长宽小于边框 */
+.l-hot-bot li:after{
+    	content: "";
+    	background-color: #665e57;
+    	height: 70px;
+    	width: 1px;
+    	position: absolute;
+    	top: 6px;
+    	right: 0;
+    }
+.l-hot-bot li:before{
+ 	content: "";
+ 	position: absolute;
+ 	width: 64px;
+ 	height: 1px;
+ 	top: -1;
+ 	left: 6px;
+ 	background-color: #665e57;
+ }
+
+ .r-hotlist {
+ 	width: 992px;
+ 	height:170px ;
+ 	/* background-color: red; */
+ 	float: right;
+ }
+ .r-hotlist li{
+ 	float: left;
+ 	margin-left: 14px;
+ }
+  .r-hotlist .fl-r{
+  	float: right;
+  }
+  .r-hotlist li img{
+  	width: 316px;
+  	height: 170px;
+  }
+  /* ===========sun list================ */
+  .sun-list{
+  	height: 58px;
+  	line-height: 58px;
+  	/* background-color: pink; */
+  	margin-top: 26px;
+  }
+   .sun-list h2{
+   	font-size: 20px;
+   	color: #333;
+   	font-weight: 400;
+   }
+   /* ===============sun bo list====================================== */
+   .sun-bo-list li{
+   	width: 234px;
+   	height: 340px;
+   	float: left;
+   	background-color: #FAFAFA;
+   	margin-right: 14px;
+   	text-align: center;
+   	border-top: 1px solid #FFAC13;
+   }
+   .sun-bo-list a{
+   	width: 160px;
+   	display: block;
+   	margin: 30px auto;
+   }
+   .sun-bo-list .p1{
+   	margin: 15px 0;
+   }
+    .sun-bo-list .p2{
+    	color: #ff6700;
+    }
+.sun-bo-list .l-end{
+   	margin-right: 0;
+   }
+
+   /* =======================public-list start================================ */
+.pagewrap{
+	background-color: #F5F5F5;
+	margin-top: 45px;
+	/* display: block; */
+	height: 768px;
+}
+   .public-list{
+   	/* height: 80px; */
+   	/* background-color: #F5F5F5; */
+   	position: relative;
+   }
+.public-list .l-pub-top{
+	/* font-size: 20px; */
+	/* font-weight: 400; */
+	display: inline-block;
+	float: left;
+}
+.l-pub-top h2{
+	font-size: 22px;
+	font-weight: 200;
+	color: #333;
+	height: 80px;
+	line-height: 80px;
+
+}
+.r-pub-list{
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+.r-pub-list li{
+	float: left;
+	color: #424242;
+	font-size: 16px;
+	margin: 0 10px;
+	cursor: pointer;
+	padding: 5px 0;
+	border-bottom: 2px solid transparent;
+}
+.r-pub-list li:hover{
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+	transition: border-color .8s;
+}
+/* =================product list============= */
+.pub-pro .l-pub-pro{
+	/* height: 50px;
+	background-color: red; */
+	float: left;
+}
+.pub-pro .l-top-img{
+	width: 234px;
+	height: 300px;
+	cursor: pointer;
+}
+.pub-pro .l-top-img{
+	width: 234px;
+	height: 300px;
+	margin-bottom: 14px;
+	cursor: pointer;
+	-webkit-transition: all .2s linear;
+	transition: all .2s linear;
+	-webkit-transition:all .2s cubic-bezier(0, 0, 1, 1.01);
+	transition: all .2s cubic-bezier(0, 0, 1, 1.01);
+}
+.pub-pro .l-top-img:hover{
+	-webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+
+/* 	-webkit-transition: all .2s linear;
+	transition: all .2s linear;
+	-webkit-transition:all .2s cubic-bezier(0, 0, 1, 1.01);
+	transition: all .2s cubic-bezier(0, 0, 1, 1.01);
+	这段代码不能放在hover里面 */
+
+}
+.pub-pro .l-bot-img{
+	width: 234px;
+	height: 300px;
+	cursor: pointer;
+}
+.pub-pro .l-bot-img {
+	width: 234px;
+	height: 300px;
+	margin-bottom: 14px;
+	cursor: pointer;
+	-webkit-transition: all .2s linear;
+	transition: all .2s linear;
+	-webkit-transition:all .2s cubic-bezier(0, 0, 1, 1.01);
+	transition: all .2s cubic-bezier(0, 0, 1, 1.01);
+}
+.pub-pro .l-bot-img:hover{
+	-webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+}
+
+/* =====================right public================================ */
+.r-prli li{
+	height: 300px;
+	width: 234px;
+	float: left;
+	background-color: white;
+	margin-left: 14px;
+	margin-bottom: 14px;
+	text-align: center;
+	-webkit-transition: all .2s linear;
+	transition: all .2s linear;
+	-webkit-transition:all .2s cubic-bezier(0, 0, 1, 1.01);
+	transition: all .2s cubic-bezier(0, 0, 1, 1.01);
+}
+.r-prli li:hover{
+	-webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+}	
+
+.r-prli a{
+   	width: 160px;
+   	display: block;
+   	margin: 20px auto;
+   }
+.r-prli .p1{
+   	margin: 15px 0;
+   }
+.r-prli .p2{
+    	color: #ff6700;
+    }
+/* ===============footer==================== */
+.footer{
+	/* height: 272px;
+	background-color: red; */
+}
+.footer .foot-top{
+	padding: 27px 0;
+	border-bottom: 1px solid #e0e0e0;
+/* 	height: 80px;
+
+	line-height: 80px; */
+	overflow: hidden; 
+	/* 注意没设置边框时有外边距塌陷问题 */
+	/* text-align:  */
+}
+.foot-top ul{
+	/* line-height: 80px; */
+}
+.foot-top li{
+	float: left;
+	border-left: 1px solid #e0e0e0;
+	height: 25px;
+}
+.foot-top li:first-child {
+    border-left: 0;
+
+	/* display: inline-block; */
+}
+.foot-top li a{
+	padding: 0 46px;
+	font-size: 20px;
+	color:#757575;
+	/* display: inline-block; */
+	/* line-height: 79px; */
+}
+.foot-top li a:hover{
+	color: #ff6700;
+	transition: color .2s;
+}
+/* ================foot dl======================== */
+.bot-dl {
+	padding: 40px 0;
+	height: 112px;
+	/* margin-bottom: 40px; */
+	/* height: 600px; */
+	/* background-color: red; */
+}
+.bot-dl dl{
+	width: 160px;
+	height: 112px;
+	float: left;
+}
+.bot-dl dt{
+	color: #424242;
+	font-size: 14px;
+	/* line-height: 1.25; */
+	margin-bottom: 26px;
+}
+.bot-dl dd{
+	margin-top: 10px;
+}
+.bot-dl dd a{
+	color: #757575;
+}
+.bot-dl dd a:hover{
+	color: #ff6700;
+}
+.right-dl {
+	width: 265px;
+	height: 112px;
+	float: right;
+	text-align: center;
+	border-left: 1px solid #e0e0e0;
+	/* background-color: red; */
+}
+.right-dl .phone{
+	 margin-bottom: 5px;
+    font-size: 22px;
+    /* line-height: 1; */
+    color: #ff6700;
+}
+.right-dl .contact{
+	width: 118px;
+    height: 28px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 28px;
+    border: 1px solid #ff6700;
+    margin-top: 10px;
+    border-color: #ff6700;
+    background: #fff;
+    color: #ff6700;
+}
+.right-dl .contact:hover{
+    color: #fff;
+    background-color: #f25807;
+    border-color: #f25807;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+/* ==============botttom=============== */
+.bottom{
+	height: 164px;
+	background-color: #FAFAFA;
+	overflow: hidden;
+}
+.bottom .wrap{
+	margin-top: 30px;
+}
+.bot-log a{
+	height: 57px;
+	width: 57px;
+	display: inline-block;
+	float: left;
+	/* line-height: 5px; */
+	background: url(../mi-logo.png) 3px ;
+	background-color: #ff6700;
+	text-indent: -2000px;
+	margin-right: 15px;
+}
+.bottom-left a:hover{
+	color: #ff6700;
+}
+.bottom-left{
+	height: 
+}
+.bottom-left .sep{
+	margin: 0 6px;
+}
+.bottom-left a{
+	/* float: left; */
+}
+.bottom-left .beian{
+	/* height: 38px; */
+	/* width: 700px; */
+	float: left;
+	margin-top: 8px;
+	font-size: 10px;
+	/* line-height: 18px; */
+}
+.bottom-left .list{
+	float: left;
+}
+.bottom-right{
+	float: right;
+}
